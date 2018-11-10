@@ -1,0 +1,61 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="device-width,initial-scale=1">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<link rel="stylesheet" href="css/style.css">
+		<title>Portfolio</title>
+	</head>
+	<body>
+		<header class="container header-container">
+			<div class="logo-container">
+				<img class="logo" src="img/udacity_logo.svg" alt="Udacity Logo">
+			</div>
+			<div class="title-container">
+				<h1>Pavan Rajendra Jakkanawar</h1>
+				<h4>Full Stack Developer</h4>
+			</div>
+		</header>
+		<main class="container portfolio-container">
+		<!-- One section is about the cover picture and the other section is about featured work-->
+			<section>
+				<figure>
+					<picture>
+						<source media="(max-width: 499px)" srcset="img/portfolio_small.png">
+						<source media="(min-width: 500px)" srcset="img/portfolio.png">
+						<img src="img/portfolio.png" class="portfolio-image" alt="Collage of Machine Learning, Full Stack, Artificial Intelligence, Front End">
+					</picture>
+				</figure>
+			</section>
+			<section class="text-align-center">
+				<h1><strong>Featured Work</strong></h1>
+			</section>
+			<section class="feature-box">
+				<!-- Each work is independent so can be in an article Tag-->
+				<article>
+					<figure>
+						<img class="" src="img/finding_donors.png" alt="Finding Donor Machine Learning Project">
+						<figCaption class="text-align-center">Finding Donors for Charity ML</figCaption>
+					</figure>
+				</article>
+			</section>
+			<section class="feature-box">
+				<article>
+					<figure>
+						<img class="" src="img/customer_segments.png" alt="Creating Customer segments Machine Learning Project">
+						<figCaption class="text-align-center">Creating Customer Segments</figCaption>
+					</figure>
+				</article>
+			</section>
+			<section class="feature-box">
+				<article>
+					<figure>
+						<img class="" src="img/code_pen.png" alt="Codepen Projects">
+						<figCaption class="text-align-center">Code Pen Projects</figCaption>
+					</figure>
+				</article>
+			</section>
+		</main>
+	</body>
+</html>

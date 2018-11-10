@@ -1,0 +1,126 @@
+body {
+	max-width: 1300px;
+	height: 100%;
+	padding: 12px;
+	font-family: Helvetica, Arial, sans-serif;
+	margin: auto;
+	overflow-y: scroll;
+	-webkit-overflow-scrolling : touch !important;
+}
+
+header {
+	border-bottom: 1px solid #7d97ad;
+}
+
+.container {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+h1, h4 {
+	font-weight: 300;
+}
+
+.logo-container {
+	margin-top: 24px;
+	width: 20%;
+}
+
+.title-container{
+	text-transform: uppercase;
+	width: 80%;
+	text-align: right;
+}
+
+.portfolio-container {
+	padding-top: 12px;
+}
+
+figure {
+	margin: 0;
+}
+
+img {
+	max-width: 100%;
+}
+
+section {
+	width: 100%;
+}
+
+.text-align-center {
+	text-align: center;
+}
+
+article {
+	width: 80%;
+	margin: auto;
+	padding: 12px;
+}
+
+.feature-box  {
+	margin: auto;
+}
+
+@media screen and (max-width:626px){
+	.feature-box {
+		width: 100%;
+	}
+}
+
+@media screen and (min-width:627px) and (max-width:1190px){
+	.feature-box {
+		width: 50%;
+	}
+}
+
+@media screen and (min-width:1191px){
+	.feature-box {
+		width: 33%;
+	}
+}
+
+@media screen and (max-width:500px){
+	.logo {
+		height: 60px;
+	}
+	
+	.title-container{
+		margin-top: 18px;
+	}
+	
+	h1 {
+		font-size: 15px;
+	}
+	
+	h4 {
+		font-size: 14px;
+	}
+	
+	figCaption {
+		font-size: 12px;
+	}
+}
+
+
+@media screen and (min-width:500px){
+	.logo {
+		height: 80px;
+	}
+	
+	.title-container{
+		margin-top: 14px;
+	}
+	
+	h1 {
+		font-size: 20px;
+	}
+	
+	h4 {
+		font-size: 17px;
+	}
+	
+	figCaption {
+		font-size: 15px;
+	}
+}
